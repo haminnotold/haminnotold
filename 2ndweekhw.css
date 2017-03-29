@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto; /*auto로 하면 저절로 가운데 정렬이 된다*/
+    padding: 0;
+}
+
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Night-sky-milky-way-galaxy-astrophotography_-_West_Virginia_-_ForestWander.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    
+}
+
+.container {
+    width: 960px;
+}
+
+nav {
+    background-color: #FFF0F5;
+    height: 80px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+}
+
+h1 {
+    float: left;
+    margin-left: 20px;
+    font-size: 30px;
+    line-height: 80px;
+    font-family: 'Macondo', cursive;
+}
+
+h1:hover { 
+    color: white;
+}
+
+nav > ul {
+    float: right;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    line-height: 80px;
+}
+
+header {
+    height: 600px;
+    background-image: url("https://s.aolcdn.com/hss/storage/midas/ce16e49e6d36c7140d80e8d3d0d5e94f/203657234/Hogwarts+Castle+lights-WWoHP+at+USH.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    color: white;
+    text-align: center;
+    display: table;
+}
+
+.text {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 60px;
+}
+
+header h2, h3 {
+    font-size: 100px;
+    line-height: 100px;
+    font-family: 'Macondo', cursive;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 50px; 
+    padding-right: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+section {
+    height: 900px;
+    background-color: DimGray;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+article {
+    float: left;
+    padding-right: 15px;
+}
+
+.imgsize1 {
+    height: 300px;
+    width: 300px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/HarryPotter5poster.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+.imgsize2 {
+    height: 300px;
+    width: 300px;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/f5/e6/44/f5e6447380f59b1098faf983d52a76ee.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.imgsize3 {
+    height: 300px;
+    width: 300px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/5/5e/Ron_Weasley_poster.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+.psize {
+    width: 300px;
+    padding: 10px;
+}
+
+
+article h2, p {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center; 
+}
+
+article h2 {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    height: 60px;
+    background-color: #FFF0F5;
+}
+
+footer > p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 60px;
+    color: black;
+    letter-spacing: 0.5px;
+}

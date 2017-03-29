@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto; /*auto로 하면 저절로 가운데 정렬이 된다*/
+    padding: 0;
+}
+
+header {
+    height: 40px;
+    background-color: #3b5998;
+    overflow: hidden;
+}
+
+.container {
+    width: 1024px;
+}
+
+
+
+.search {
+    float: left;
+}
+
+.button {
+    float: right;
+}
