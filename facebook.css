@@ -10,16 +10,48 @@ header {
     overflow: hidden;
 }
 
-.container {
+.containerhd {
     width: 1024px;
 }
-
-
 
 .search {
     float: left;
 }
 
 .button {
+    float: right;
+}
+
+section {
+    background-color: #e9ebee;
+    overflow: hidden;
+}
+
+.containerst {
+    width: 1024px;
+}
+
+.menu {
+    width: 185px;
+    height: 630px;
+    float: left;
+}
+
+.cover-image {
+    width: 820px;
+    height: 364px;
+    float: right;
+}
+
+.newsfeed {
+    width: 496px;
+    height: 321px;
+    float: right;
+    margin-right: 18px;
+}
+
+.advertise {
+    width: 306px;
+    height: 372px;
     float: right;
 }

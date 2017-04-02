@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a:visited, a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 80px;
+    background-color: white;
+    line-height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a:hover { 
+    color: #f4ad42;
+}   
+
+nav::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.nav-logo {
+    font-size: 30px;
+    float: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.nav-menu {
+    float: right;
+    margin-right: 10px; 
+}
+
+.nav-btn {
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.nav-btn > li {
+    float: left;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+header {
+    height: 700px;
+    background-image: url("http://images.indianexpress.com/2016/05/breads_759_thinkstockphotos-484163886.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-aline: center;
+}
+
+.hd-title {
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding-top: 150px;
+    line-height: 100px;
+}
+
+.hd-txt{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+section {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #fcfbf4;
+}
+
+section::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.sec-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+section article {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+
+section article: last-child {
+    margin-right: 0;
+}
+
+.square {
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+}
+
+section article img {
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+section article p {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    word-spacing: 0.2em;
+}
+
+
+
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+}
